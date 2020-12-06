@@ -13,6 +13,16 @@
     list-style-type:none;
     display: inline;
     margin-right: 70px;
+    cursor: pointer;
+    
+}
+
+.selected{
+    border-bottom: 3px solid white;
+}
+
+.not-selected{
+    border-bottom: 0px solid transparent;
 }
 
 body {

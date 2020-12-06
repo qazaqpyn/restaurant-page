@@ -12,6 +12,9 @@ function everyHead() {
     const nav3 = document.createElement('li');
     
 
+    nav1.classList.add("li1");
+    nav2.classList.add("li2");
+    nav3.classList.add("li3");
 
     header.classList.add("header");
     nameRestaurant.classList.add("name-restaurant");
