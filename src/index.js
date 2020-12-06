@@ -1,4 +1,8 @@
 
-import pageLoad from "./pages"
+import pageInfo from "./info"
+import everyHead from "./header"
+import pageContact from "./contact"
 
-pageLoad();
+everyHead();
+pageContact();
+// pageInfo();
