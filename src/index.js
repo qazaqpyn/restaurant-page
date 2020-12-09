@@ -2,6 +2,7 @@
 import pageInfo from "./info"
 import everyHead from "./header"
 import pageContact from "./contact"
+import showMenu from "./menu"
 
 everyHead();
 pageInfo();
@@ -30,3 +31,10 @@ nav3.addEventListener('click',()=>{
 });
 
 
+nav2.addEventListener('click', ()=>{
+    nav2.classList.add("selected");
+    nav1.classList.remove("selected");
+    nav3.classList.remove("selected");
+    content.removeChild(content.lastChild);
+    showMenu();
+})
