@@ -1,0 +1,162 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-bottom: 4px solid rgb(255, 60, 0);
+}
+
+
+.head li {
+    list-style-type:none;
+    display: inline;
+    margin-right: 70px;
+    cursor: pointer;
+    
+}
+
+.selected{
+    border-bottom: 3px solid rgb(255, 60, 0);
+}
+
+.not-selected{
+    border-bottom: 0px solid transparent;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(30, 38, 39);
+}
+
+.contact {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    justify-content: flex-end;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+
+.menu-text{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    border: 2px solid white ;
+    width: 400px;
+    margin: auto;
+    border-top: transparent;
+}
+
+.text {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    justify-content: center;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("../data/info-image.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.doner1 {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    justify-content: center;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("../data/doner1.jpeg");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.doner2 {
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    justify-content: center;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("../data/doner2.jpg");
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.doner3{
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    font-size: 30px;
+    justify-content: center;
+    border: 2px solid white;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url("../data/doner3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    transform: scale(5);
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 100px;
+    border-radius: 50%;
+}
+  
+  /* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color:white;
+    background: rgb(0,51,102);
+}
+
+.name-restaurant{
+    margin-left: 70px;
+    text-align: center;
+}
+
+.name-restaurant h1 {
+    letter-spacing: 5px;
+    border-bottom: 3px solid rgb(255, 10,0);
+}
+
+.name-restaurant h3 {
+    margin-top: -20px;
+    letter-spacing: 2px;
+}
